@@ -10,6 +10,19 @@ Welcome to my portfolio! This website showcases my projects, skills, and experie
   - [The Maze Project](#the-maze-project)
 - [Contact](#contact)
 
+## Directory Structure
+
+  /portfolio-project
+     ├── index.html
+     ├── styles.css
+     ├── script.js
+     ├── images/
+     │   ├── cover-image.jpg
+     │   ├── feature1-screenshot.jpg
+     │   ├── feature2-screenshot.jpg
+     │   ├── feature3-screenshot.jpg
+     │   ├── logo.png
+
 ## About Me
 
 I am a software engineering student with a keen interest in developing interactive applications. I enjoy problem-solving and am constantly seeking to learn new technologies and methodologies to enhance my skill set.
