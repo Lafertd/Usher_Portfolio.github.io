@@ -51,18 +51,13 @@ if (menuToggle) {
 const projects = [
     {
         title: "The Maze Project",
-        image: "images/feature1-screenshot.jpg",
+        image: "images/feature1-screenshot.png",
         description: "This project is a 3D maze game created using ray casting techniques."
     },
     {
-        title: "Project 2",
-        image: "images/feature2-screenshot.jpg",
+        title: "Another Project",
+        image: "images/feature2-screenshot.png",
         description: "Description of project 2..."
-    },
-    {
-        title: "Project 3",
-        image: "images/feature3-screenshot.jpg",
-        description: "Description of project 3..."
     }
 ];
 
@@ -75,7 +70,7 @@ function loadProjects() {
         
         projectDiv.innerHTML = `
             <h3>${project.title}</h3>
-            <img src="${project.image}" alt="${project.title} Screenshot">
+            <img src="${project.image}" alt="${project.title} Screenshot" class="project-image">
             <p>${project.description}</p>
         `;
         
