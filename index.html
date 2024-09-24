@@ -3,47 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Achraf's Portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
+    <header class="header">
         <img src="images/cover-image.jpg" alt="Cover Image" class="cover-image">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Your go-to place for my projects and experiences as a software engineer.</p>
+        <div class="header-content">
+            <h1>My Portfolio</h1>
+            <p>Welcome to my portfolio showcasing my projects and experiences.</p>
+        </div>
     </header>
-
-    <main>
-        <section class="projects">
-            <h2>Projects</h2>
-            <div class="project">
-                <img src="images/feature1-screenshot.png" alt="Feature 1 Screenshot">
-                <h3>Project 1</h3>
-                <p>This project showcases my skills and creativity.</p>
-            </div>
-            <div class="project">
-                <img src="images/feature2-screenshot.png" alt="Feature 2 Screenshot">
-                <h3>Project 2</h3>
-                <p>Description of project 2...</p>
-            </div>
-        </section>
-
-        <article class="blog-article">
-            <h2>My Journey in Software Development</h2>
-            <p>Finding My Passion: As a software engineering student, my journey into the tech world began with a simple fascination with how things work...</p>
-            <a href="#full-article" class="read-more">Read More</a>
-            <div id="full-article" class="full-article hidden">
-                <p>My journey continues with the ALX Foundation, where I faced challenges that pushed me to think critically and innovate. From debugging code to implementing user-friendly designs, every step has taught me valuable lessons about persistence and creativity...</p>
-                <p>Through the Maze project, I learned the intricacies of 3D game development and ray casting techniques. It was a challenging but fulfilling experience that I'm proud of...</p>
-                <p>In the future, I aim to work on projects that positively impact users' lives...</p>
-                <p>Published on: September 24, 2024</p>
-            </div>
-        </article>
-    </main>
-
+    
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I'm a software engineering student passionate about developing interactive applications.</p>
+    </section>
+    
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="images/feature1-screenshot.png" alt="Feature 1">
+            <h3>Feature 1</h3>
+            <p>Description of feature 1.</p>
+        </div>
+        <div class="project">
+            <img src="images/feature2-screenshot.png" alt="Feature 2">
+            <h3>Feature 2</h3>
+            <p>Description of feature 2.</p>
+        </div>
+    </section>
+    
+    <section class="blog">
+        <h2>Blog Article: My Journey in Software Development</h2>
+        <p>Finding My Passion: My journey into the tech world began with a simple fascination...</p>
+        <a href="full-article.html" class="read-more">Read More</a>
+    </section>
+    
     <footer>
-        <p>About Me: I'm a software engineering student passionate about developing interactive applications. I enjoy learning new technologies and improving my skills to create better solutions for users.</p>
+        <p>© 2024 Achraf. All Rights Reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
