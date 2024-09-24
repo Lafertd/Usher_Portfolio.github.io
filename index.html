@@ -3,68 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Achraf's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <!-- Header Section -->
     <header>
-        <h1>Welcome to My Portfolio</h1>
-        <img src="images/cover-image.jpg" alt="Cover Image" class="cover-image">
+        <nav>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <section id="intro">
+            <img src="images/cover-image.jpg" alt="Cover Image">
+            <h1>Achraf's Portfolio</h1>
+            <p>Your go-to place for innovative software solutions.</p>
+            <a href="#projects" class="cta-button">View Projects</a>
+        </section>
     </header>
 
-    <!-- Navigation Section -->
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <main>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>The Maze Project</h3>
+                <img src="images/feature1-screenshot.png" alt="Feature 1 Screenshot">
+                <p>This project is a 3D maze game created using ray casting techniques.</p>
+            </div>
+            <div class="project">
+                <h3>Another Project</h3>
+                <img src="images/feature2-screenshot.png" alt="Feature 2 Screenshot">
+                <p>Description of project 2...</p>
+            </div>
+        </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a software engineering student with a keen interest in developing interactive applications. I enjoy problem-solving and am constantly seeking to learn new technologies and methodologies to enhance my skill set.</p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Here are some of my notable projects:</p>
-        
-        <!-- Project 1 -->
-        <div class="project">
-            <h3>The Maze Project</h3>
-            <img src="images/feature1-screenshot.jpg" alt="Feature 1 Screenshot">
-            <p>This project is a 3D maze game created using ray casting techniques. The objective of the game is to navigate through a maze and reach the exit.</p>
-        </div>
-
-        <!-- Additional Projects -->
-        <div class="project">
-            <h3>Project 2</h3>
-            <img src="images/feature2-screenshot.jpg" alt="Feature 2 Screenshot">
-            <p>Description of project 2...</p>
-        </div>
-
-        <div class="project">
-            <h3>Project 3</h3>
-            <img src="images/feature3-screenshot.jpg" alt="Feature 3 Screenshot">
-            <p>Description of project 3...</p>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out for collaboration or inquiries!</p>
-        <p>GitHub: <a href="https://github.com/lafertd">My GitHub Profile</a></p>
-        <p>Discord: <a href="https://discord.com/channels/@me">lafertd#5050</a></p>
-    </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a software engineering student passionate about developing interactive applications.</p>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2024 Achraf's Portfolio</p>
+        <p>© 2024 Achraf. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
