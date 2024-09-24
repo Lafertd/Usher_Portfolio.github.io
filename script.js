@@ -1,13 +1,10 @@
-// Placeholder for future JavaScript functionality
-$(document).ready(function() {
-    // Example: smooth scrolling for anchor links
-    $('a[href^="#"]').on('click', function(event) {
-        var target = $(this.getAttribute('href'));
-        if (target.length) {
-            event.preventDefault();
-            $('html, body').stop().animate({
-                scrollTop: target.offset().top
-            }, 1000);
-        }
+document.addEventListener('DOMContentLoaded', () => {
+    const readMoreButton = document.querySelector('.read-more');
+    const fullArticle = document.querySelector('.full-article');
+
+    readMoreButton.addEventListener('click', (e) => {
+        e.preventDefault();
+        fullArticle.classList.toggle('hidden');
+        readMoreButton.innerText = fullArticle.classList.contains('hidden') ? 'Read More' : 'Read Less';
     });
 });
