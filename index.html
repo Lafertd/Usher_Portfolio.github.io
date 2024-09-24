@@ -1,47 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Achraf's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <header>
+        <h1>Welcome to Achraf's Portfolio</h1>
         <nav>
-            <div class="logo">
-                <h1>Achraf's Portfolio</h1>
-            </div>
             <ul>
-                <li><a href="#about">About</a></li>
+                <li><a href="#about-me">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#blog">Blog</a></li>
             </ul>
-            <div class="menu-toggle">☰</div>
         </nav>
     </header>
 
     <main>
-        <section id="intro">
-            <div class="intro-text">
-                <img src="images/cover-image.jpg" alt="Cover Image" class="cover-image">
-                <h1>Welcome to My Portfolio</h1>
-                <p>Showcasing my projects and journey as a software engineer.</p>
-            </div>
+        <section class="intro-text">
+            <img src="images/cover-image.jpg" alt="Cover Image" class="cover-image">
+            <h2>Discover My Work</h2>
+            <p>As a software engineering student, I am passionate about creating innovative solutions through code.</p>
         </section>
 
         <section id="projects">
             <h2>My Projects</h2>
             <div class="project">
-                <img src="images/feature1-screenshot.png" alt="Project 1 Screenshot" class="project-image">
                 <h3>Project 1</h3>
+                <img src="images/feature1-screenshot.png" alt="Project 1 Screenshot" class="project-image">
                 <p>This project is a 3D maze game created using ray casting techniques.</p>
             </div>
             <div class="project">
-                <img src="images/feature2-screenshot.png" alt="Project 2 Screenshot" class="project-image">
                 <h3>Project 2</h3>
+                <img src="images/feature2-screenshot.png" alt="Project 2 Screenshot" class="project-image">
                 <p>Description of project 2...</p>
             </div>
         </section>
@@ -54,22 +48,20 @@
                 <p>The moment I created my first web application, I knew this was the path I wanted to pursue. The sense of accomplishment and the ability to bring ideas to life through code was exhilarating.</p>
                 <p>With each project, I've faced challenges that have pushed me to think critically and innovate. From debugging code to implementing user-friendly designs, every step has taught me valuable lessons about persistence and creativity.</p>
                 <p>In the future, I aim to work on projects that not only challenge me technically but also positively impact users' lives. I believe that technology can be a force for good, and I want to be part of that change.</p>
-                <p class="read-more"><a href="#!" onclick="alert('Read more coming soon!')">Read More...</a></p>
-                <p><em>Published on: September 24, 2024</em></p>
+                <p class="read-more"><a href="#">Read More</a></p>
+                <p><strong>Published on:</strong> September 24, 2024</p>
             </div>
         </section>
 
-        <section id="about">
+        <section id="about-me">
             <h2>About Me</h2>
             <p>I'm a software engineering student passionate about developing interactive applications. I enjoy learning new technologies and improving my skills to create better solutions for users.</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Achraf. All rights reserved.</p>
+        <p>&copy; 2024 Achraf's Portfolio</p>
+        <p>GitHub: <a href="https://github.com/lafertd" style="color: white;">lafertd</a> | Discord: <a href="https://discord.com/channels/@me" style="color: white;">laferd#5050</a></p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
-
 </html>
