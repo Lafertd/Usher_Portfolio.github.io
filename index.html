@@ -3,45 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Achraf's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
-        <img src="images/cover-image.jpg" alt="Cover Image" class="cover-image">
-        <div class="header-content">
-            <h1>My Portfolio</h1>
-            <p>Welcome to my portfolio showcasing my projects and experiences.</p>
-        </div>
+    <header>
+        <nav>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <section id="intro">
+            <img src="images/cover-image.jpg" alt="Cover Image">
+            <h1>Achraf's Portfolio</h1>
+            <p>Your go-to place for innovative software solutions.</p>
+            <a href="#projects" class="cta-button">View Projects</a>
+        </section>
     </header>
-    
-    <section class="about">
-        <h2>About Me</h2>
-        <p>I'm a software engineering student passionate about developing interactive applications.</p>
-    </section>
-    
-    <section class="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <img src="images/feature1-screenshot.png" alt="Feature 1">
-            <h3>Feature 1</h3>
-            <p>Description of feature 1.</p>
-        </div>
-        <div class="project">
-            <img src="images/feature2-screenshot.png" alt="Feature 2">
-            <h3>Feature 2</h3>
-            <p>Description of feature 2.</p>
-        </div>
-    </section>
-    
-    <section class="blog">
-        <h2>Blog Article: My Journey in Software Development</h2>
-        <p>Finding My Passion: My journey into the tech world began with a simple fascination...</p>
-        <a href="full-article.html" class="read-more">Read More</a>
-    </section>
-    
+
+    <main>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>The Maze Project</h3>
+                <img src="images/feature1-screenshot.png" alt="Feature 1 Screenshot">
+                <p>This project is a 3D maze game created using ray casting techniques.</p>
+            </div>
+            <div class="project">
+                <h3>Another Project</h3>
+                <img src="images/feature2-screenshot.png" alt="Feature 2 Screenshot">
+                <p>Description of project 2...</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a software engineering student passionate about developing interactive applications.</p>
+        </section>
+    </main>
+
     <footer>
-        <p>© 2024 Achraf. All Rights Reserved.</p>
+        <p>© 2024 Achraf. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
