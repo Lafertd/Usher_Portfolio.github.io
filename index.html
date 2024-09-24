@@ -1,62 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Achraf's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <nav>
-            <div class="menu-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="logo">
+                <h1>Achraf's Portfolio</h1>
             </div>
             <ul>
-                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#blog">Blog</a></li>
-                <li><a href="#about">About</a></li>
             </ul>
+            <div class="menu-toggle">☰</div>
         </nav>
-        <section id="intro">
-            <img src="images/cover-image.jpg" alt="Cover Image" class="cover-image">
-            <div class="intro-text">
-                <h1>Achraf's Portfolio</h1>
-                <p>Your go-to place for innovative software solutions.</p>
-                <a href="#projects" class="cta-button">View Project</a>
-            </div>
-        </section>
     </header>
 
     <main>
+        <section id="intro">
+            <div class="intro-text">
+                <img src="images/cover-image.jpg" alt="Cover Image" class="cover-image">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Showcasing my projects and journey as a software engineer.</p>
+            </div>
+        </section>
+
         <section id="projects">
-            <h2>Project: The Maze</h2>
-            <p>This project is a 3D maze game created using ray casting techniques. It allows players to navigate through a maze, providing an engaging gaming experience.</p>
+            <h2>My Projects</h2>
             <div class="project">
-                <img src="images/feature1-screenshot.png" alt="Feature 1 Screenshot" class="project-image">
-                <p>Feature 1: Explore the Maze</p>
+                <img src="images/feature1-screenshot.png" alt="Project 1 Screenshot" class="project-image">
+                <h3>Project 1</h3>
+                <p>This project is a 3D maze game created using ray casting techniques.</p>
             </div>
             <div class="project">
-                <img src="images/feature2-screenshot.png" alt="Feature 2 Screenshot" class="project-image">
-                <p>Feature 2: Overcome Obstacles</p>
+                <img src="images/feature2-screenshot.png" alt="Project 2 Screenshot" class="project-image">
+                <h3>Project 2</h3>
+                <p>Description of project 2...</p>
             </div>
         </section>
 
         <section id="blog">
             <h2>Blog Article: My Journey in Software Development</h2>
-            <article>
+            <div class="blog-article">
                 <h3>Finding My Passion</h3>
                 <p>As a software engineering student, my journey into the tech world began with a simple fascination with how things work. I started by learning HTML and CSS, building small projects, and gradually expanding my knowledge to more complex programming languages.</p>
                 <p>The moment I created my first web application, I knew this was the path I wanted to pursue. The sense of accomplishment and the ability to bring ideas to life through code was exhilarating.</p>
                 <p>With each project, I've faced challenges that have pushed me to think critically and innovate. From debugging code to implementing user-friendly designs, every step has taught me valuable lessons about persistence and creativity.</p>
                 <p>In the future, I aim to work on projects that not only challenge me technically but also positively impact users' lives. I believe that technology can be a force for good, and I want to be part of that change.</p>
-                <footer>
-                    <p><em>Published on: September 24, 2024</em></p>
-                </footer>
-            </article>
+                <p class="read-more"><a href="#!" onclick="alert('Read more coming soon!')">Read More...</a></p>
+                <p><em>Published on: September 24, 2024</em></p>
+            </div>
         </section>
 
         <section id="about">
@@ -66,9 +66,10 @@
     </main>
 
     <footer>
-        <p>© 2024 Achraf. All rights reserved.</p>
+        <p>&copy; 2024 Achraf. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
