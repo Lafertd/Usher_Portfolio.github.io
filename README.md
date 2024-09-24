@@ -25,20 +25,17 @@ I am a software engineering student with a keen interest in developing interacti
 
 ### The Maze Project
 
-![Maze Project Screenshot][(path/to/your/screenshot.png](https://camo.githubusercontent.com/faf52b23481bb061fea754a359433cea01f0b026d27a24f87b4dc2dc1b6dc815/68747470733a2f2f692e706f7374696d672e63632f52566b4d433938322f312e706e67))  <!-- Replace with the actual path to your screenshot -->
+![Maze Project Screenshot](https://camo.githubusercontent.com/faf52b23481bb061fea754a359433cea01f0b026d27a24f87b4dc2dc1b6dc815/68747470733a2f2f692e706f7374696d672e63632f52566b4d433938322f312e706e67)
 
 - **Description:** The Maze Project is a 3D maze game created using ray casting techniques. The objective of the game is to navigate through a maze and reach the exit.
 - **Technologies Used:** C++, SDL
-- **Timeline:** August 9, 2024 - August 16, 2024
-- **QA Review Date:** August 30, 2024
-- **GitHub Repository:** [The Maze Project](https://github.com/lafertd/maze-project)  <!-- Link to your project repo -->
+- **GitHub Repository:** [The Maze Project](https://github.com/lafertd/maze-project)
 
 ## Contact
 
 Feel free to reach out to me for collaboration or inquiries:
 
-- **Email:** your-email@example.com  <!-- Replace with your actual email -->
-- **GitHub:** [Your GitHub Profile](https://github.com/lafertd)  <!-- Link to your GitHub profile -->
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile)  <!-- Link to your LinkedIn profile -->
-
+- **GitHub:** [Your GitHub Profile](https://github.com/lafertd)
+- **Discord:** [Message me on Discord]((https://discord.com/users/lafertd))
+ 
 Thank you for visiting my portfolio!
